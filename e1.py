@@ -39,4 +39,7 @@ if st.button("Calculate Magnetic Field"):
     plt.ylabel("Y-axis (m)")
     plt.grid(True)
     plt.xlim(-5, 5)
-    plt.ylim(-5, 5
+    plt.ylim(-5, 5)
+
+    # Display the plot in Streamlit
+    st.pyplot(plt)
